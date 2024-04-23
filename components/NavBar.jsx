@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function NavBar() {
   return (
-    <nav className=" flex justify-between items-center py-5 px-20 sticky top-0 bg-white shadow-md">
+    <nav className=" flex justify-between items-center py-5 px-20 sticky top-0 z-50 bg-white shadow-md">
       <Image
         src="/amit.svg"
         width="70"

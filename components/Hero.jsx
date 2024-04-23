@@ -3,10 +3,10 @@ import NavBar from "./NavBar";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen px-[40px]">
       <header className="flex-center h-full gap-10">
 
-        <div className="img-holder bg-primary-500 w-60 h-60 rounded-full overflow-hidden object-cover">
+        <div className="bg-primary-500 w-60 h-60 rounded-full overflow-hidden object-cover">
           <Image 
           src="/bw-profile.png" 
           alt="profile pic"

@@ -31,6 +31,14 @@ body {}
     @apply bg-gradient-to-r from-cyan-500 to-blue-500
     
   }
+
+  .img-holder{
+    @apply overflow-hidden
+  }
+
+  .img-holder img {
+    @apply w-[inherit] h-[inherit] object-cover
+  }
 }
 
 @layer components {
